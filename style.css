@@ -3,10 +3,10 @@ body{
     margin: 0%;
 }
 section{
-    height: 700px;
+    height: 750px;
 }
-.top-banner-div{
-    margin-left: 10%;
+.banner-div{
+    margin-left: 15%;
     background-color: transparent;
 }
 .name-highlight{
@@ -16,7 +16,7 @@ section{
 
 }
 .half-width img{
-    width: 100%;
+    width: 700px;
 }
 .half-width{
     width: 40%;
@@ -27,4 +27,19 @@ section{
     background-image: url("images/header-bg.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(232, 108, 77), rgb(174, 33, 33));
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+}
+#mid-banner-para{
+    margin-top: 8%;
+    margin-left: 20px;
+}
+.biography-banner{
+    background-image: url("images/biography-bg.png");
 }
