@@ -1,8 +1,13 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+section{
+    height: 700px;
 }
 .top-banner-div{
     margin-left: 10%;
+    background-color: transparent;
 }
 .name-highlight{
     font-weight: 700;
@@ -15,6 +20,11 @@ body{
 }
 .half-width{
     width: 40%;
-    padding: 1%;
+    padding-top: 5%;
     float: left;
+}
+.top-banner{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
